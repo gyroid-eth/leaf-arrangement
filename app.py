@@ -14,7 +14,7 @@ num_spirals = st.slider("Number of spirals", min_value=1, max_value=144, value=3
 point_size = st.slider("Data point size", min_value=10, max_value=500, value=300, step=10)
 
 # 黄金角（約137.5°）をラジアンに変換
-golden_angle = np.deg2rad(137.5)
+golden_angle = np.deg2rad(137.509)
 
 # 1からn_pointsまでの整数配列（各葉を表す）
 n = np.arange(1, n_points + 1)
