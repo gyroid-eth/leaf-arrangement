@@ -7,8 +7,8 @@ st.title("Phyllotaxis Pattern Simulation")
 # データポイント数（葉の数）をスライダーで指定（10～1000、初期値200）
 n_points = st.slider("Number of data points (leaves)", min_value=10, max_value=1000, value=200, step=10)
 
-# ハイライトする螺旋の数をスライダーで指定（1～300、初期値34）
-num_spirals = st.slider("Number of spirals", min_value=1, max_value=300, value=34, step=1)
+# ハイライトする螺旋の数をスライダーで指定（1～144、初期値34）
+num_spirals = st.slider("Number of spirals", min_value=1, max_value=144, value=34, step=1)
 
 # データポイントの大きさをスライダーで指定（10～500、初期値300）
 point_size = st.slider("Data point size", min_value=10, max_value=500, value=300, step=10)
